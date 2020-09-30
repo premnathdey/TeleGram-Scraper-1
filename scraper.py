@@ -33,7 +33,8 @@ except KeyError:
     banner()
     print(re+"[!] run python3 setup.py first !!\n")
     sys.exit(1)
-
+y=mx+c
+this is a equation of a straightline and i like it
 client.connect()
 if not client.is_user_authorized():
     client.send_code_request(phone)
